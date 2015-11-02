@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.effect.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
@@ -12,6 +13,12 @@
             <Menu fx:id="mnuGame" mnemonicParsing="false" text="Game">
               <items>
                 <MenuItem mnemonicParsing="false" text="Action 1" />
+                  <RadioMenuItem mnemonicParsing="false" text="5 card joker poker" />
+                  <RadioMenuItem mnemonicParsing="false" text="5 card wild poker" />
+                  <RadioMenuItem mnemonicParsing="false" text="5 card draw" />
+                  <RadioMenuItem mnemonicParsing="false" text="7 card draw" />
+                  <RadioMenuItem mnemonicParsing="false" text="Texas Hold em" />
+                  <RadioMenuItem mnemonicParsing="false" text="Omaha" />
               </items>
             </Menu>
           <Menu mnemonicParsing="false" text="File">
